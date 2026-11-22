@@ -1,0 +1,21 @@
+{
+  "rows": {
+    "DEMOCO": {
+      "symbol": "DEMOCO",
+      "name": "Demo Company Limited",
+      "period_end": "2026-09-30",
+      "fiscal": "Q2 FY27",
+      "basis": "consolidated",
+      "revenue_ttm_cr": 94174.18,
+      "net_profit_ttm_cr": 8322.6,
+      "eps_ttm": 83.22,
+      "revenue_growth_yoy": 12.6,
+      "net_profit_growth_yoy": 11.2,
+      "eps_growth_yoy": 11.1,
+      "operating_margin": 11.0,
+      "net_margin": 8.8,
+      "source": "NSE XBRL results filings"
+    }
+  },
+  "updated": "2026-11-14"
+}

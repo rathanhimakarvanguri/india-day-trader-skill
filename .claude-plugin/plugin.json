@@ -1,0 +1,24 @@
+{
+  "name": "india-day-trader-skill",
+  "description": "11 Claude skills for day trading on NSE: scan hundreds of charts, track news and NSE filings, time every entry and exit in IST, and replay every outcome before you risk a rupee.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Rathan Himakar Vanguri",
+    "url": "https://github.com/rathanhimakarvanguri"
+  },
+  "homepage": "https://github.com/rathanhimakarvanguri/india-day-trader-skill",
+  "repository": "https://github.com/rathanhimakarvanguri/india-day-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "nse",
+    "india",
+    "zerodha",
+    "kite",
+    "opening-range-breakout",
+    "paper-trading"
+  ],
+  "skills": "./"
+}

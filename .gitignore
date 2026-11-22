@@ -1,0 +1,5 @@
+# your own trading data: config, plans, orders, portfolio, state
+trader/
+__pycache__/
+*.pyc
+.DS_Store

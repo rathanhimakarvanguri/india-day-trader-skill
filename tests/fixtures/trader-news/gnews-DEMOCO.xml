@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>"Demo Company" NSE - Google News</title>
+<item><title>Demo Company Q2 results: net profit rises 12% YoY to Rs 1,240 crore - Demo Business Daily</title>
+<link>https://news.example.com/demo-company-q2</link><guid>gn-1</guid>
+<pubDate>Fri, 13 Nov 2026 02:40:00 GMT</pubDate><source url="https://news.example.com">Demo Business Daily</source></item>
+<item><title>Brokerage upgrades Demo Company to buy, raises target price - Demo Markets</title>
+<link>https://news.example.com/demo-upgrade</link><guid>gn-2</guid>
+<pubDate>Fri, 13 Nov 2026 04:10:00 GMT</pubDate><source url="https://markets.example.com">Demo Markets</source></item>
+<item><title>RBI keeps repo rate unchanged; Nifty steady - Demo Wire</title>
+<link>https://news.example.com/rbi</link><guid>gn-3</guid>
+<pubDate>Wed, 04 Nov 2026 05:00:00 GMT</pubDate><source url="https://wire.example.com">Demo Wire</source></item>
+</channel></rss>

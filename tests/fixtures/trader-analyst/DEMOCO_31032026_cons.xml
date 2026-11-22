@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:in-capmkt="http://www.sebi.gov.in/xbrl/2023-10-31/in-capmkt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi">
+  <xbrli:context id="OneD"><xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">DEMOCO</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2026-01-01</xbrli:startDate><xbrli:endDate>2026-03-31</xbrli:endDate></xbrli:period></xbrli:context>
+  <xbrli:context id="FourD"><xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">DEMOCO</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2025-04-01</xbrli:startDate><xbrli:endDate>2026-03-31</xbrli:endDate></xbrli:period></xbrli:context>
+  <xbrli:context id="OneI"><xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">DEMOCO</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:instant>2026-03-31</xbrli:instant></xbrli:period></xbrli:context>
+  <xbrli:context id="Seg1"><xbrli:entity><xbrli:identifier scheme="http://www.nseindia.com">DEMOCO</xbrli:identifier><xbrli:segment><xbrldi:explicitMember dimension="in-capmkt:SegmentsAxis">in-capmkt:RetailMember</xbrldi:explicitMember></xbrli:segment></xbrli:entity><xbrli:period><xbrli:startDate>2026-01-01</xbrli:startDate><xbrli:endDate>2026-03-31</xbrli:endDate></xbrli:period></xbrli:context>
+  <in-capmkt:NameOfTheCompany contextRef="OneD">Demo Company Limited</in-capmkt:NameOfTheCompany>
+  <in-capmkt:RevenueFromOperations contextRef="Seg1" unitRef="INR" decimals="-5">92741925944</in-capmkt:RevenueFromOperations>
+  <in-capmkt:RevenueFromOperations contextRef="OneD" unitRef="INR" decimals="-5">231854814860</in-capmkt:RevenueFromOperations>
+  <in-capmkt:OtherIncome contextRef="OneD" unitRef="INR" decimals="-5">9000000000</in-capmkt:OtherIncome>
+  <in-capmkt:Income contextRef="OneD" unitRef="INR" decimals="-5">240854814860</in-capmkt:Income>
+  <in-capmkt:FinanceCosts contextRef="OneD" unitRef="INR" decimals="-5">6000000000</in-capmkt:FinanceCosts>
+  <in-capmkt:DepreciationDepletionAndAmortisationExpense contextRef="OneD" unitRef="INR" decimals="-5">8000000000</in-capmkt:DepreciationDepletionAndAmortisationExpense>
+  <in-capmkt:ProfitBeforeTax contextRef="OneD" unitRef="INR" decimals="-5">28504029634</in-capmkt:ProfitBeforeTax>
+  <in-capmkt:ProfitLossForPeriod contextRef="OneD" unitRef="INR" decimals="-5">21378022225</in-capmkt:ProfitLossForPeriod>
+  <in-capmkt:ProfitOrLossAttributableToOwnersOfParent contextRef="OneD" unitRef="INR" decimals="-5">20522901336</in-capmkt:ProfitOrLossAttributableToOwnersOfParent>
+  <in-capmkt:BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations contextRef="OneD" unitRef="INRPerShare" decimals="-5">20.52</in-capmkt:BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations>
+  <in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations contextRef="OneD" unitRef="INRPerShare" decimals="-5">20.32</in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations>
+  <in-capmkt:RevenueFromOperations contextRef="FourD" unitRef="INR" decimals="-5">556451555664</in-capmkt:RevenueFromOperations>
+  <in-capmkt:OtherIncome contextRef="FourD" unitRef="INR" decimals="-5">21600000000</in-capmkt:OtherIncome>
+  <in-capmkt:Income contextRef="FourD" unitRef="INR" decimals="-5">578051555664</in-capmkt:Income>
+  <in-capmkt:FinanceCosts contextRef="FourD" unitRef="INR" decimals="-5">14400000000</in-capmkt:FinanceCosts>
+  <in-capmkt:DepreciationDepletionAndAmortisationExpense contextRef="FourD" unitRef="INR" decimals="-5">19200000000</in-capmkt:DepreciationDepletionAndAmortisationExpense>
+  <in-capmkt:ProfitBeforeTax contextRef="FourD" unitRef="INR" decimals="-5">68409671123</in-capmkt:ProfitBeforeTax>
+  <in-capmkt:ProfitLossForPeriod contextRef="FourD" unitRef="INR" decimals="-5">51307253342</in-capmkt:ProfitLossForPeriod>
+  <in-capmkt:ProfitOrLossAttributableToOwnersOfParent contextRef="FourD" unitRef="INR" decimals="-5">49254963208</in-capmkt:ProfitOrLossAttributableToOwnersOfParent>
+  <in-capmkt:BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations contextRef="FourD" unitRef="INRPerShare" decimals="-5">49.25</in-capmkt:BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations>
+  <in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations contextRef="FourD" unitRef="INRPerShare" decimals="-5">48.76</in-capmkt:DilutedEarningsLossPerShareFromContinuingAndDiscontinuedOperations>
+</xbrli:xbrl>
